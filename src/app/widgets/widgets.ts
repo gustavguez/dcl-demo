@@ -1,11 +1,11 @@
-import { MensBarsWidgetComponent } from './mens-bars-widget/mens-bars-widget.component';
-import { MensLinesWidgetComponent } from './mens-lines-widget/mens-lines-widget.component';
-import { WomansBarsWidgetComponent } from './womans-bars-widget/womans-bars-widget.component';
-import { WomansNumberWidgetComponent } from './womans-number-widget/womans-number-widget.component';
+import { MenBarsWidgetComponent } from './men-bars-widget/men-bars-widget.component';
+import { MenLinesWidgetComponent } from './men-lines-widget/men-lines-widget.component';
+import { WomenBarsWidgetComponent } from './women-bars-widget/women-bars-widget.component';
+import { WomenNumberWidgetComponent } from './women-number-widget/women-number-widget.component';
 
 export default {
-    'mens-bars': MensBarsWidgetComponent,
-    'mens-lines': MensLinesWidgetComponent,
-    'womans-bars': WomansBarsWidgetComponent,
-    'womans-number': WomansNumberWidgetComponent,
+    'men-bars': MenBarsWidgetComponent,
+    'men-lines': MenLinesWidgetComponent,
+    'women-bars': WomenBarsWidgetComponent,
+    'women-number': WomenNumberWidgetComponent,
 };

@@ -17,10 +17,10 @@ export class AppComponent implements OnInit {
   ngOnInit(): void {
     //Create widgets array after fetch to API
     this.widgets = [
-      { componentId: 'mens-bars' },
-      { componentId: 'mens-lines' },
-      { componentId: 'womans-bars' },
-      { componentId: 'womans-number' },
+      { componentId: 'men-bars' },
+      { componentId: 'men-lines' },
+      { componentId: 'women-bars' },
+      { componentId: 'women-number' },
       {},
       {},
     ];
